@@ -1,0 +1,144 @@
+.RightBar{
+    background: white;
+    height: 100%;
+    overflow: scroll;
+}
+.profile{
+    width: 60px;
+    margin: 10px;
+}
+
+.profileName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileDetails>i{
+padding-left: 60px;
+}
+.profileDetails>span:nth-child(1){
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+.profileDetails>span:nth-child(3){
+    display: block;
+    font-size: 12px;
+    color: gray;
+}
+
+.details{
+    padding-left: 10px;
+}
+.details>div:nth-child(1)>span{
+    font-size: 16px;
+    color: rgb(55, 55, 55);
+    font-weight: 400;
+    padding-left: 10px;
+}
+.details>div:nth-child(2)>span{
+    font-size: 15px;
+    color: rgb(55, 55, 55);
+    font-weight: 400;
+    padding-left: 10px;
+
+}
+hr{
+    display: block !important;
+    unicode-bidi: isolate !important;
+    margin-block-start: 1em !important;
+    margin-block-end: 1em !important;
+    margin-inline-start: 1em !important;
+    margin-inline-end: 1em !important;
+    overflow: hidden !important;
+    border-style: inset !important;
+    border-width: 1.2px !important;
+    color: gray  !important;
+}
+
+.react-calendar {
+    width: 342px !important;
+    max-width: 100% !important;
+    background: white !important;
+    border: 0px solid #a0a096 !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    line-height: 0em !important;
+}
+
+.react-calendar__tile--active {
+    background: #dc0030 !important;
+    color: white !important;
+    border-radius: 0.5rem;
+}
+
+.Myreport>span{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.Myreport>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    overflow: scroll;
+}
+.Myreport>div>img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 5px 0px 0px;
+    border-radius: 10px;
+    background: #f2f2f2;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.Myreport>div::-webkit-scrollbar{
+    display: none;
+}
+
+.task{
+    margin: 10px;
+    height: 30vh;
+    overflow: scroll;
+}
+
+.card{
+    height: 70px;
+    border-radius: 10px;
+    background: #f2f2f2;
+    padding: 10px;
+    margin: 10px;
+}
+.card>div:nth-child(1)>img{
+    width: 30px;
+    height: 30px;
+}
+.card>div:nth-child(1){
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.img6{
+    rotate: 90deg;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.card>div:nth-child(1)>span{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.card>div:nth-child(2)>span{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+}

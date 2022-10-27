@@ -1,0 +1,89 @@
+.mcard {
+  background: white;
+  border-radius: 0.5rem;
+  margin: 40px 20px 20px 20px;
+  height: 150px;
+}
+.mcard:nth-child(1){
+    border-bottom: 4px solid #ff0000;
+}
+.mcard:nth-child(2){
+    border-bottom: 4px solid #297b10;
+}
+.mcard:nth-child(3){
+    border-bottom: 4px solid #ebde28;
+}
+.mcard > div > img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0px 0px 5px;
+  border-radius: 0.5rem;
+  width: 50px;
+  height: 50px;
+  background: rgb(192, 192, 192);
+}
+.mcard > div > span {
+  margin-left: 5px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.mcard > div:nth-child(1) {
+  display: flex;
+  align-items: center;
+}
+
+.numbercol {
+  display: grid;
+  height: auto;
+  width: 100%;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.numbercol > div:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: black;
+}
+.numbercol > div:nth-child(2) {
+  border-left: 3px solid #ebde28;
+}
+.numbercol > div:nth-child(2)>span:nth-child(1) {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: gray;
+}
+.numbercol > div:nth-child(2)>span:nth-child(2) {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+  }
+
+  .numbercol > div:nth-child(3) {
+    border-left: 3px solid #297b10;
+  }
+  .numbercol > div:nth-child(3)>span:nth-child(1) {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: gray;
+  }
+  .numbercol > div:nth-child(3)>span:nth-child(2) {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: black;
+    }
